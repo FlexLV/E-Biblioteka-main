@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    margin: 0;
+  }
+header{
+  position: relative;
+}
+.navbar{
+    display: inline-block;
+    position: fixed;
+    width: 100%;
+    height: 110px;
+    background: #ffffff;
+    mix-blend-mode: hard-light;
+    border-radius: 6px;
+}
+/* Build the styling for #nosaukums (title of the page) */
+.Nosaukums{
+    left: 100px;
+    top: 220px;
+    position: absolute;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 49px;
+    color: #0D0842;
+}
+.categorys{
+    position: absolute;
+    width: 24px;
+    height: 18px;
+    left: 100px;
+    top: 44px;
+
+}
+.image-button {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.image-button:focus {
+    outline: none;
+}
+
+.image-button:active {
+    opacity: 0.8;
+    color: rgb(255, 255, 255);
+}
+.search-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .search-icon {
+    position: absolute;
+    left: 239px;
+    top: 53px;
+    transform: translateY(-50%);
+    width: 16px;
+    height: 16px;
+    z-index: 1;
+  }
+  
+  .search-input {
+    position: relative;
+    left: 224px;
+    padding: 9px 60px 9px 15px;
+    font-size: 16px;
+    background-color: #EAEAEA;
+    border-radius: 13px;
+    border: none;
+    color: #0D0842; /* Change the text color to white */
+    text-align: center;
+    outline: none;
+    top: 35px;
+    z-index: 0;
+  }
+  
+  .search-input::placeholder {
+    color: #828282; /* Change the placeholder color to a lighter gray */
+    text-align: center;
+    margin-left: -37px;
+  }
+  
+  .search-input:focus {
+    box-shadow: 0 0 8px rgba(102, 175, 233, 0.6);
+  }
+  .profile{
+    position: absolute;
+    right: 339px;
+    top: 35px;
+  }
+  .favourite{
+    position: absolute;
+    right: 283px;
+    top: 35px;
+  }
+  .basket-button{
+    text-indent: 40px;
+    position: absolute;
+    padding: 10px 40px 10px 15px;
+    border-radius: 8px;
+    right: 81px;
+    top: 29px;
+    font-family: 'Nunito Sans';
+    background-color:#FFCE1A;
+    color: #FFFFF8;
+    border: none;
+  }
+  .basket-icon{
+    position: absolute;
+    left: 15px;
+    top: 9px;
+    width: 20px;
+    height: 21px;
+  }
+  .teksts{
+    position: absolute;
+    left: 100px;
+    top: 309px;
+    font-family: 'Montserrat';
+    font-style: regular;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: auto;
+    color: #0D0842;
+  }
+  .Subscribe{
+    position: absolute;
+    left: 100px;
+    top: 440px;
+    background-color: #FFCE1A;
+    color: #FFFFF8;
+    border: none;
+    border-radius: 6px;
+    padding: 7px 49px;
+    font-family: 'Nunito Sans';
+    font-style: regular;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: auto;
+  }
+  .book1st{
+    position: absolute;
+    right: 500px;
+    top: 200px;
+
+    z-index: 3;
+  }
+  .book2nd{
+    position: absolute;
+    right: 370px;
+    top: 200px;
+    z-index: 2;
+  }
+  .book3rd{
+    position: absolute;
+    right: 230px;
+    top: 201px;
+    z-index: 1;
+  }
+  .secound-title{
+    position: absolute;
+    left: 100px;
+    top: 700px;
+    font-family: 'Montserrat';
+    font-style: regular;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: auto;
+    color: #0D0842;
+  }
+  .genre{
+    position: absolute;
+    left: 100px;
+    top: 790px;
+    font-family: 'Montserrat';
+    font-style: regular;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: auto;
+    color: #0D0842;
+  }
